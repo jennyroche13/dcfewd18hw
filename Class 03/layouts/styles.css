@@ -5,7 +5,12 @@
 	border: 1px solid #000000;
 }
 
-header, footer {
+header {
+	width: 100%;
+	background: navy;
+}
+
+footer {
 	clear: both;
 	width: 100%;
 }
@@ -18,7 +23,6 @@ ul {
 }
 
 .logo {
-	margin-right: ;
 	background: #D8D8D8;
 	margin-bottom: 20px;
 	padding: 50px;

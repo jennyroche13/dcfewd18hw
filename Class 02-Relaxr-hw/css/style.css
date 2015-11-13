@@ -123,12 +123,15 @@ footer {
   color: #FFFFFF;
 }
 
-h3 {
+.get-now {
   font-size: 14px;
   font-weight: 800;
-  border-radius: 1px solid #f9e42e;
+  border-radius: 10px;
   background-color: #f9e42e;
-  padding: 5px;
+  padding: 10px 50px 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
 }
 
 .quote-section {
@@ -152,6 +155,14 @@ h3 {
   width: 100%;
   text-align: center;
   color: #FFFFFF;
+}
+
+.sign-up-button {
+  background-color: #033048;
+  padding: 10px 50px 10px 50px;
+  text-decoration: none;
+  color: #FFFFFF;
+  border-radius: 10px;
 }
 
 .logo-2 {
