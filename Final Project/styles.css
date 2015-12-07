@@ -12,7 +12,7 @@ body {
 }
 
 header {
-	height: 700px;
+	height: 900px;
 	background: url(images/makeup-background.jpg) no-repeat center top; 
 	box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
   	background-size: cover;
