@@ -91,6 +91,12 @@ li a:hover {
 	font-size: 32px;
 }
 
+.contact-call {	
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 24px;
+}
+
 .contact {
 	padding-top: 50px;
 	padding-bottom: 50px;
