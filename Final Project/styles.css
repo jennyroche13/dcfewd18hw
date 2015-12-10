@@ -1,3 +1,24 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
 body {
 	font-family: 'Oswald', Arial, sans-serif;
 	background-color: #FFFFFF;
@@ -24,8 +45,12 @@ header {
 }
 
 .menu {
+	background: rgba(0,0,0,.3);
 	text-align: right;
 	width: 100%;
+	position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 li {
@@ -102,6 +127,11 @@ li a:hover {
 	padding-bottom: 50px;
 }
 
+.form-inline {
+	padding-left: 50px;
+	font-size: 24px;
+}
+
 .logo-2 {
   font-size: 24px;
   font-weight: 800;
@@ -113,5 +143,47 @@ li a:hover {
 }
 
 .social {
-  padding: 10px;
+  list-style: none;
+  display: inline-block;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+.fa {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 42px;
+}
+
+.grid-block {
+	position: relative;
+	float: left;
+	/*width: 325px;*/
+	/*height: 200px;*/
+	margin: 0 0 30px 30px;
+}
+ 
+.caption {
+	display: none;
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	background: rgba(0,0,0,.4);
+	width: 100%;
+	/*height: 100%;*/
+}
+
+.caption h3, .caption p {
+	color: #fff;
+	margin: 20px;
+}
+
+.caption h3 {
+	margin: 20px 20px 10px;
+}
+
+.caption p {
+	font-size: .75em;
+	line-height: 1.5em;
+	margin: 0 20px 15px;
 }

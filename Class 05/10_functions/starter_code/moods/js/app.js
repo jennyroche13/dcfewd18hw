@@ -1,6 +1,6 @@
 //wait for the DOM elements to load before executing
 $(document).ready(function() {
-
+jQuery('#submit-btn').click(iHaveBeenClicked);
   // Create a function that runs whenever the submit button is clicked
   function iHaveBeenClicked(){
     //prevent the submit button from refreshing the page
@@ -25,6 +25,6 @@ $(document).ready(function() {
     	$(".moodring div").attr('class','bad');
 }
 
-	jQuery('#submit-btn').click(iHaveBeenClicked);
+	
 
 });
