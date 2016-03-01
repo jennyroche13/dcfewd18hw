@@ -169,16 +169,22 @@ h3 {
 }
 
 .sign-up {
+     background-color: #f9e42e;
+     float: left;
+}
+
+.sign-up-button {
   font-size: 20px;
   font-weight: 800;
-  background-color: #f9e42e;
+  background-color: #033048;
   height: 100px;
-  float: left;
   width: 100%;
   text-align: center;
   color: #FFFFFF;
   font-family: 'Open Sans', sans-serif;
 }
+
+
 
 .logo-2 {
   font-size: 36px;
