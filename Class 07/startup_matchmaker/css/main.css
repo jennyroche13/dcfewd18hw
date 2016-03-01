@@ -215,7 +215,7 @@ a {
     top: 5px;
 }
 
-@media all and (max-width: 800px) {
+@media (max-width: 800px) {
     body {
         background: #ccc;
     }

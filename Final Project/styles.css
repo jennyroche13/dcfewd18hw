@@ -128,8 +128,41 @@ li a:hover {
 }
 
 .form-inline {
-	padding-left: 50px;
+	padding-left: 80px;
 	font-size: 24px;
+}
+
+.form-group {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.name-label {
+	padding: 9px;
+}
+
+#exampleInputName2 {
+	margin-bottom: 30px;
+}
+
+.email-label {
+	padding: 10px;
+}
+
+.message-label {
+	padding: 10px;
+	margin-top: 30px;
+	margin-left: 76px;
+}
+
+.form-control {
+	padding: 10px;
+}
+
+.btn {
+	padding: 10px;
+	margin-left: 76px;
+	margin-top: 10px;
 }
 
 .logo-2 {
@@ -186,4 +219,10 @@ li a:hover {
 	font-size: .75em;
 	line-height: 1.5em;
 	margin: 0 20px 15px;
+}
+
+@media (max-width: 600px) {
+	.email-label {
+
+	}
 }
