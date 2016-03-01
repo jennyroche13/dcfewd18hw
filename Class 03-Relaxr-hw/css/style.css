@@ -171,6 +171,7 @@ h3 {
 .sign-up {
      background-color: #f9e42e;
      float: left;
+     width: 100%;
 }
 
 .sign-up-button {
